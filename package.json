@@ -2,14 +2,6 @@
   "name": "gateway-api-service",
   "version": "1.0.0",
   "type": "module",
-  "description": "Node.js API service",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "health": "curl -s http://localhost:$PORT/health"
-  },
-  "dependencies": {
-    "express": "^4.21.0",
-    "morgan": "^1.10.0"
-  }
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "express": "^4.21.0" }
 }
